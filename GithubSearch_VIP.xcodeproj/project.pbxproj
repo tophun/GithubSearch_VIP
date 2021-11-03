@@ -103,6 +103,7 @@
 				361CD4512732D913005DD3CB /* Sources */,
 				361CD4522732D913005DD3CB /* Frameworks */,
 				361CD4532732D913005DD3CB /* Resources */,
+				0AA07DE1B506B297854E770A /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -160,6 +161,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		0AA07DE1B506B297854E770A /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubSearch_VIP/Pods-GithubSearch_VIP-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GithubSearch_VIP/Pods-GithubSearch_VIP-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GithubSearch_VIP/Pods-GithubSearch_VIP-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		97FDF11A64FA406DE0DD0D60 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;

@@ -6,5 +6,8 @@ target 'GithubSearch_VIP' do
   use_frameworks!
 
   # Pods for GithubSearch_VIP
+  pod 'Then'
+  pod 'SnapKit', '~> 5.0.0'
+  pod 'Alamofire', '~> 5.4'
 
 end
